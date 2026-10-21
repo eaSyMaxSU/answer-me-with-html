@@ -18,5 +18,5 @@ docs/social/
 docs/demo/*.mp4
 docs/demo/*.gif
 
-# Website build output (npm run site); GitHub Pages builds it in CI.
+# Website build output (npm run site).
 site/dist/

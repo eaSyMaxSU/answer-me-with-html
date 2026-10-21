@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
-# CodeRabbit review settings. Reviews are advisory: CI and a maintainer decide what merges.
+# CodeRabbit review settings. Reviews are advisory: a maintainer decides what merges.
 language: en-US
 reviews:
   profile: chill
