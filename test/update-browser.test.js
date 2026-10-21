@@ -1,5 +1,5 @@
 // Browser seam for the new-version button: open a page with the button from disk and over HTTP under another host name, as an app's
-// built-in preview may load it, in headless Chrome. Needs Chrome, so it runs only with AM_E2E=1 (CI job `video`) like test/layout-browser.test.js.
+// built-in preview may load it, in headless Chrome. Needs Chrome, so it runs only with AM_E2E=1 like test/layout-browser.test.js.
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
