@@ -1,5 +1,5 @@
 // Browser seam for the photo-wall layout (spec #50, ticket #52): render sheet pages with the CLI, open them in headless Chrome
-// and check what a reader sees. Slow and needs Chrome, so it runs only with AM_E2E=1 (CI job `video`) and skips without Chrome.
+// and check what a reader sees. Slow and needs Chrome, so it runs only with AM_E2E=1 and skips without Chrome.
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFileSync, spawn } from 'node:child_process';

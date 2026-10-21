@@ -1,5 +1,5 @@
 // Browser seam for live reload under am serve: open a served page in headless Chrome, give it reader input, change its file, and look
-// at the notice. Needs Chrome, so it runs only with AM_E2E=1 (CI job `video`) like test/layout-browser.test.js.
+// at the notice. Needs Chrome, so it runs only with AM_E2E=1 like test/layout-browser.test.js.
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFileSync, spawn } from 'node:child_process';

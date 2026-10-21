@@ -1,5 +1,5 @@
 // Browser seam for answering on the page: render a page with asks, then pick, comment, open Reply and reload in headless Chrome.
-// Needs Chrome, so it runs only with AM_E2E=1 (CI job `video`) like test/layout-browser.test.js.
+// Needs Chrome, so it runs only with AM_E2E=1 like test/layout-browser.test.js.
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFileSync, spawn } from 'node:child_process';

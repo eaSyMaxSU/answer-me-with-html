@@ -1,6 +1,6 @@
 // Browser seam for the page's Content-Security-Policy: a raw html fence holding a script and an inline handler must not run, and the
-// page's own runtime must still work with no violation from its own scripts. Needs Chrome, so it runs only with AM_E2E=1 (CI job
-// `video`) like test/reply-browser.test.js.
+// page's own runtime must still work with no violation from its own scripts. Needs Chrome, so it runs only with AM_E2E=1
+// like test/reply-browser.test.js.
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFileSync, spawn } from 'node:child_process';
