@@ -1,5 +1,5 @@
 // Regression tests for install layouts: manifests agree on the version, referenced files exist, and the bundled skill directory runs outside the repository.
-// The real npx skills / claude plugin validate install checks run in the CI install job (scripts/smoke-install.mjs).
+// The real npx skills / claude plugin validate install checks run in npm run smoke:install (scripts/smoke-install.mjs).
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync, mkdtempSync, mkdirSync, symlinkSync, realpathSync, cpSync, rmSync, readdirSync } from 'node:fs';

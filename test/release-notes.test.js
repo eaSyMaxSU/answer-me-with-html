@@ -1,5 +1,5 @@
 // .github/release-notes.md: the bilingual GitHub Release notes for the version in package.json.
-// The release workflow (.github/workflows/release.yml) publishes this file when the version changes, so a release PR that forgot to update it must fail here.
+// The GitHub Release is published from this file when the version changes (CONTRIBUTING.md, "Releasing"), so a release PR that forgot to update it must fail here.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';

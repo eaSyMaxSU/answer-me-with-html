@@ -1,7 +1,7 @@
 // Browser seam for the three copy buttons outside the Reply sheet — the toolbar's Copy source, a code block's Copy and the
 // new-version popover's Copy. Each reads data-done for a moment after a click; this is what a second click inside that moment does
 // to the label, which decides whether the button ever says what it is again.
-// Needs Chrome, so it runs only with AM_E2E=1 (CI job `video`) like test/update-browser.test.js.
+// Needs Chrome, so it runs only with AM_E2E=1 like test/update-browser.test.js.
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';

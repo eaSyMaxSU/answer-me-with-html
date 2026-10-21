@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Real-install smoke test (called by the CI install job, needs network):
+// Real-install smoke test (npm run smoke:install, needs network):
 // 1. npx skills add <repo> -l recognizes the skill (fails here when the YAML header is broken, see PR #2);
 // 2. install once for real with a temporary HOME, then render a page with the installed am.mjs;
 // 3. claude plugin validate checks the manifests of the marketplace and the plugin.
